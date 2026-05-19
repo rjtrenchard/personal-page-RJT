@@ -1,27 +1,27 @@
 const projects = [
   {
-    title: 'Project One',
+    title: 'Partyhints',
     description:
-      'A short description of what this project does and what problem it solves. Keep it to two or three sentences.',
-    tech: ['React', 'TypeScript', 'Vite'],
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Project Two',
-    description:
-      'Another project highlight. What was interesting about building this? What did you learn or ship?',
-    tech: ['Node.js', 'PostgreSQL', 'REST'],
-    github: '#',
+      'A small graphical game addon for Final Fantasy XI that shows job icons of your party and current target. A solo project that gained a small following, it uses simple graphical libraries and packet data to achieve a low profile view.',
+    tech: ['Lua', 'TCP', 'imagelib'],
+    github: 'https://github.com/rjtrenchard/partyhints',
     live: null,
   },
   {
-    title: 'Project Three',
+    title: 'Forestry Club Timesheet',
     description:
-      'A third featured project. Link to a live demo or repo so visitors can explore it themselves.',
-    tech: ['Rust', 'WebAssembly'],
-    github: '#',
-    live: '#',
+      'A full stack application designed to replace paper sign-in sheets for Green River Colleges local Forstry club. A small team of 4, I handled the backend and learned a lot about future-proofing, making sure each API endpoint was accounted for and documented.',
+    tech: ['Node.js', 'React', 'SQL', 'Express.js'],
+    github: 'https://github.com/rjtrenchard/forestry-club-GRC',
+    live: null,
+  },
+  {
+    title: 'FungalHabitatML',
+    description:
+      'A small AI/ML project aiming to be able to single out fungi based on provided data. Runs a small backend such that you can poll it via API endpoint',
+    tech: ['Python', 'Jupyter', 'Matplotlib', 'seaborn', 'scikit-learn', 'Flask'],
+    github: 'https://github.com/rjtrenchard/FungalHabitatML/tree/main',
+    live: null,
   },
 ]
 
