@@ -1,11 +1,19 @@
 const skills = [
-  'JavaScript (ES2024)',
+  'JavaScript',
   'TypeScript',
   'React',
-  'Node.js',
-  'Rust',
-  'SQL / PostgreSQL',
+  'ThreeJS',
+  'Unity',
+  // 'Rust',
+  'C#',
+  'C++',
+  'C',
+  // 'Go',
+  'SQL',
+  'AWS'
 ]
+
+
 
 export default function About() {
   return (
@@ -21,15 +29,17 @@ export default function About() {
         <div className="about-body">
           <div className="about-text">
             <p>
-              Hey! I&rsquo;m [Name], a developer with a passion for building
-              things that live on the internet. I enjoy working across the stack
-              and have a particular interest in systems programming and developer
-              tooling.
+              Hello! I&rsquo;m R.J., this is a personal page to test out AI
+              driven development. It seems pretty easy so far! I work across the
+              stack but I have a keen interest in lower level development.
+              I got a taste for soldering and arduino and I've been
+              enjoying embedded development. From the cloud to the bare metal
+              circuits, I like to learn it.
             </p>
             <p>
-              When I&rsquo;m not writing code, you&rsquo;ll find me [hobby /
-              interest], [hobby / interest], or diving deep into [something you
-              love].
+              Of course, I'm not just a software developer. I'm into classic games,
+              brewing, mushroom foraging, and fishing. I'm always down to talk about
+              these subjects!
             </p>
             <p>Here are a few technologies I&rsquo;ve been working with:</p>
             <ul className="about-skills">
@@ -41,7 +51,8 @@ export default function About() {
 
           <div className="about-photo">
             {/* Replace with: <img src={yourPhoto} alt="Your Name" /> */}
-            <span>photo here</span>
+            {/* <img src={aboutMe} alt="R.J. Trenchard photo" /> */}
+
           </div>
         </div>
       </div>
