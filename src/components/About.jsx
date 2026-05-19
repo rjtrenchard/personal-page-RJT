@@ -1,13 +1,16 @@
+import aboutMe from '../assets/aboutMe.png';
+
 const skills = [
   'JavaScript',
   'TypeScript',
-  'React',
+  // 'React',
   'ThreeJS',
   'Unity',
   // 'Rust',
   'C#',
   'C++',
   'C',
+  'Java',
   // 'Go',
   'SQL',
   'AWS'
@@ -51,7 +54,7 @@ export default function About() {
 
           <div className="about-photo">
             {/* Replace with: <img src={yourPhoto} alt="Your Name" /> */}
-            {/* <img src={aboutMe} alt="R.J. Trenchard photo" /> */}
+            <img src={aboutMe} alt="R.J. Trenchard photo" />
 
           </div>
         </div>
