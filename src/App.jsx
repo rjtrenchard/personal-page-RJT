@@ -13,7 +13,7 @@ export default function App() {
         <Route path="/hobbies" element={<Hobbies />} />
       </Routes>
       <footer className="footer">
-        <p>Built with React &amp; Vite</p>
+        <p>Built with React &amp; Vite + ThreeJS</p>
       </footer>
     </div>
   )
