@@ -37,7 +37,7 @@ const hobbies = [
     icon: '🍽️',
     title: 'Cooking',
     description:
-      'I cook! I like to experiment, but I\'m quite adept at making food out of whatever ingredients are available. I love trying my hand at sushi.',
+      'I cook! I like to experiment, but I\'m quite adept at making food out of whatever ingredients are available. I make a really good spaghetti sauce with just off the shelf ingredients! I love trying my hand at sushi.',
     tags: ['Food', 'Spaghetti Sauce', 'Sushi'],
     image: sushi,
   },
@@ -60,7 +60,7 @@ export default function Hobbies() {
               <span className="hobby-icon">{h.icon}</span>
               <h2>{h.title}</h2>
               <p>{h.description}</p>
-              {h.image ? <img src={h.image} className="" /> : null}
+              {h.image ? <img src={h.image} className="hobby-image" /> : null}
               <ul className="project-tech">
                 {h.tags.map((t) => (
                   <li key={t} className="tech-badge">{t}</li>
