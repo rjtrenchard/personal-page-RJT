@@ -1,10 +1,27 @@
-import { Link, NavLink } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 
 export default function Nav() {
+  const [open, setOpen] = useState(false)
+  const location = useLocation()
+
+  // Close menu on route change
+  useEffect(() => { setOpen(false) }, [location])
+
   return (
     <nav className="nav">
       <Link to="/" className="nav-logo">RJ</Link>
-      <ul className="nav-links">
+
+      <button
+        className={`nav-hamburger${open ? ' nav-hamburger--open' : ''}`}
+        onClick={() => setOpen(o => !o)}
+        aria-label={open ? 'Close menu' : 'Open menu'}
+        aria-expanded={open}
+      >
+        <span /><span /><span />
+      </button>
+
+      <ul className={`nav-links${open ? ' nav-links--open' : ''}`} onClick={() => setOpen(false)}>
         <li><a href="/#about">About</a></li>
         <li><a href="/#projects">Projects</a></li>
         <li>
