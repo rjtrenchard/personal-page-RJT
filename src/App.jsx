@@ -1,20 +1,17 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Nav from './components/Nav'
-import Hero from './components/Hero'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Home from './pages/Home'
+import Hobbies from './pages/Hobbies'
 
 export default function App() {
   return (
     <div className="site-wrapper">
       <Nav />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/hobbies" element={<Hobbies />} />
+      </Routes>
       <footer className="footer">
         <p>Built with React &amp; Vite</p>
       </footer>

@@ -79,7 +79,8 @@
   transition: color 0.2s;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links .nav-active {
   color: var(--accent);
   text-decoration: none;
   opacity: 1;
@@ -353,6 +354,64 @@
   color: var(--accent);
   text-decoration: none;
   opacity: 1;
+}
+
+/* ── Hobbies page ── */
+.hobbies-page {
+  padding-top: calc(var(--nav-height) + 64px);
+}
+
+.page-header {
+  margin-bottom: 56px;
+}
+
+.page-header h1 {
+  font-size: clamp(32px, 6vw, 56px);
+  letter-spacing: -1px;
+  margin: 12px 0 16px;
+}
+
+.page-subtitle {
+  font-size: 17px;
+  max-width: 480px;
+}
+
+.hobbies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.hobby-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.hobby-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.hobby-icon {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.hobby-card h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.hobby-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  flex: 1;
 }
 
 /* ── Footer ── */
