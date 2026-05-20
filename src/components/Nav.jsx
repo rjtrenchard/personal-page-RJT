@@ -16,6 +16,8 @@ export default function Nav() {
           </NavLink>
         </li>
         <li><a href="/#contact">Contact</a></li>
+        <li><a href="https://www.github.com/rjtrenchard" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/rj-trenchard" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
       </ul>
     </nav>
   )

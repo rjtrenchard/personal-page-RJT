@@ -3,29 +3,29 @@ const hobbies = [
     icon: '🎮',
     title: 'Classic Games',
     description:
-      'From old-school JRPGs to retro PC titles, I have a deep appreciation for games that prioritized creativity within hardware constraints. Final Fantasy XI holds a special place — it\'s where a lot of my earliest programming projects came from.',
+      'From SNES CRPG\'s to retro PC titles, I have a deep appreciation for games that prioritized creativity within hardware constraints. Final Fantasy XI holds a special place — it\'s where a lot of my earliest programming projects came from.',
     tags: ['Final Fantasy XI', 'Retro', 'Emulation'],
   },
   {
     icon: '🍺',
     title: 'Homebrewing',
     description:
-      'I brew my own beer at home — ales mostly, with the occasional experiment into lagers or sours. There\'s something satisfying about the process from grain to glass, and every batch teaches you something new.',
-    tags: ['Ales', 'Lagers', 'Fermentation'],
+      'I brew my own beer at home — ales mostly, with the occasional experiment ciders from plums grown in my backyard. There\'s something satisfying about the process from grain to glass, and every batch teaches you something new.',
+    tags: ['Ales', 'Fermentation'],
   },
   {
     icon: '🍄',
     title: 'Mushroom Foraging',
     description:
       'The Pacific Northwest is an incredible place to forage. I spend time in the field identifying and collecting wild fungi. It\'s part nature walk, part puzzle — and it directly inspired my FungalHabitatML project.',
-    tags: ['Pacific Northwest', 'Identification', 'Mycology'],
+    tags: ['Pacific Northwest', 'Mycology'],
   },
   {
     icon: '🎣',
     title: 'Fishing',
     description:
-      'Freshwater fishing, mostly. There\'s a meditative quality to it that\'s hard to find elsewhere — good for decompressing after a long sprint or a tough debugging session.',
-    tags: ['Freshwater', 'Fly Fishing', 'PNW'],
+      'Freshwater fishing, mostly (I\'m not very good at saltwater fishing.) There\'s a meditative quality to it that\'s hard to find elsewhere — good for decompressing after a long sprint or a tough debugging session.',
+    tags: ['Freshwater', 'PNW'],
   },
 ]
 
@@ -55,6 +55,7 @@ export default function Hobbies() {
             </div>
           ))}
         </div>
+
       </div>
     </main>
   )
