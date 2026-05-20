@@ -1,3 +1,12 @@
+
+# Personal page
+
+This is a simple demo to show a personal page, which can be run anywhere react+vite can.
+
+Primarily just used to test the waters with AI driven development.
+
+----
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
